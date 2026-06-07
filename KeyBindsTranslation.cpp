@@ -1171,6 +1171,289 @@ static const std::unordered_map<Language, Translation> TRANSLATIONS = {
 				{KeyBinds::KeyControl::Templates_EquipmentTemplate9, (const char*)u8"Plantilla de equipamiento 9"},
 			}
 		}
+	},
+	{
+		Language::Chinese, {
+			(const char*)u8"滑鼠",
+			(const char*)u8"(未設定)",
+			(const char*)u8"解除綁定",
+			// modifier
+			{
+				{KeyBinds::Modifier_Ctrl, (const char*)u8"Ctrl"},
+				{KeyBinds::Modifier_Alt, (const char*)u8"Alt"},
+				{KeyBinds::Modifier_Shift, (const char*)u8"Shift"},
+			},
+			// keys
+			{
+				{KeyCode::LeftAlt, (const char*)u8"Left Alt"},
+				{KeyCode::LeftCtrl, (const char*)u8"Left Ctrl"},
+				{KeyCode::LeftShift, (const char*)u8"Left Shift"},
+				{KeyCode::CapsLock, (const char*)u8"Caps Lock"},
+				{KeyCode::Escape, (const char*)u8"Escape"},
+				{KeyCode::NumLock, (const char*)u8"Num Lock"},
+				{KeyCode::Backspace, (const char*)u8"Backspace"},
+				{KeyCode::Delete, (const char*)u8"Delete"},
+				{KeyCode::Enter, (const char*)u8"Enter"},
+				{KeyCode::Space, (const char*)u8"Space"},
+				{KeyCode::Tab, (const char*)u8"Tab"},
+				{KeyCode::End, (const char*)u8"End"},
+				{KeyCode::Home, (const char*)u8"Home"},
+				{KeyCode::Insert, (const char*)u8"Insert"},
+				{KeyCode::Next, (const char*)u8"Page Down"},
+				{KeyCode::Prior, (const char*)u8"Page Up"},
+				{KeyCode::ArrowDown, (const char*)u8"Down Arrow"},
+				{KeyCode::ArrowLeft, (const char*)u8"Left Arrow"},
+				{KeyCode::ArrowRight, (const char*)u8"Right Arrow"},
+				{KeyCode::ArrowUp, (const char*)u8"Up Arrow"},
+				{KeyCode::F1, (const char*)u8"F1"},
+				{KeyCode::F2, (const char*)u8"F2"},
+				{KeyCode::F3, (const char*)u8"F3"},
+				{KeyCode::F4, (const char*)u8"F4"},
+				{KeyCode::F5, (const char*)u8"F5"},
+				{KeyCode::F6, (const char*)u8"F6"},
+				{KeyCode::F7, (const char*)u8"F7"},
+				{KeyCode::F8, (const char*)u8"F8"},
+				{KeyCode::F9, (const char*)u8"F9"},
+				{KeyCode::F10, (const char*)u8"F10"},
+				{KeyCode::F11, (const char*)u8"F11"},
+				{KeyCode::F12, (const char*)u8"F12"},
+				{KeyCode::F13, (const char*)u8"F13"},
+				{KeyCode::F14, (const char*)u8"F14"},
+				{KeyCode::F15, (const char*)u8"F15"},
+				{KeyCode::F16, (const char*)u8"F16"},
+				{KeyCode::F17, (const char*)u8"F17"},
+				{KeyCode::F18, (const char*)u8"F18"},
+				{KeyCode::F19, (const char*)u8"F19"},
+				{KeyCode::F20, (const char*)u8"F20"},
+				{KeyCode::F21, (const char*)u8"F21"},
+				{KeyCode::F22, (const char*)u8"F22"},
+				{KeyCode::F23, (const char*)u8"F23"},
+				{KeyCode::F24, (const char*)u8"F24"},
+				{KeyCode::F25, (const char*)u8"F25"},
+				{KeyCode::F26, (const char*)u8"F26"},
+				{KeyCode::F27, (const char*)u8"F27"},
+				{KeyCode::F28, (const char*)u8"F28"},
+				{KeyCode::F29, (const char*)u8"F29"},
+				{KeyCode::F30, (const char*)u8"F30"},
+				{KeyCode::F31, (const char*)u8"F31"},
+				{KeyCode::F32, (const char*)u8"F32"},
+				{KeyCode::F33, (const char*)u8"F33"},
+				{KeyCode::F34, (const char*)u8"F34"},
+				{KeyCode::F35, (const char*)u8"F35"},
+				{KeyCode::PlusNum, (const char*)u8"Add (NUM)"},
+				{KeyCode::DecimalNum, (const char*)u8"Decimal (NUM)"},
+				{KeyCode::DivideNum, (const char*)u8"Divide (NUM)"},
+				{KeyCode::MultiplyNum, (const char*)u8"Multiply (NUM)"},
+				{KeyCode::_0_NUM, (const char*)u8"0 (NUM)"},
+				{KeyCode::_1_NUM, (const char*)u8"1 (NUM)"},
+				{KeyCode::_2_NUM, (const char*)u8"2 (NUM)"},
+				{KeyCode::_3_NUM, (const char*)u8"3 (NUM)"},
+				{KeyCode::_4_NUM, (const char*)u8"4 (NUM)"},
+				{KeyCode::_5_NUM, (const char*)u8"5 (NUM)"},
+				{KeyCode::_6_NUM, (const char*)u8"6 (NUM)"},
+				{KeyCode::_7_NUM, (const char*)u8"7 (NUM)"},
+				{KeyCode::_8_NUM, (const char*)u8"8 (NUM)"},
+				{KeyCode::_9_NUM, (const char*)u8"9 (NUM)"},
+				{KeyCode::EnterNum, (const char*)u8"Return (NUM)"},
+				{KeyCode::MinusNum, (const char*)u8"Subtract (NUM)"},
+				{KeyCode::ImeKey1, (const char*)u8"IME Key 1 (在亞洲語言鍵盤上)"},
+				{KeyCode::ImeKey2, (const char*)u8"IME Key 2 (在亞洲語言鍵盤上)"},
+				{KeyCode::RightAlt, (const char*)u8"Right Alt"},
+				{KeyCode::RightCtrl, (const char*)u8"Right Ctrl"},
+				{KeyCode::RightShift, (const char*)u8"Right Shift"},
+				{KeyCode::Eject, (const char*)u8"Eject"},
+				{KeyCode::EqualNum, (const char*)u8"Equal (NUM)"},
+				{KeyCode::ClearNum, (const char*)u8"Clear (NUM)"},
+				{KeyCode::LeftCmd, (const char*)u8"Left Cmd"},
+				{KeyCode::Function, (const char*)u8"Function"},
+				{KeyCode::RightCmd, (const char*)u8"Right Cmd"},
+				{KeyCode::Scroll, (const char*)u8"Scroll"},
+				{KeyCode::Pause, (const char*)u8"Pause"},
+				{KeyCode::LeftWin, (const char*)u8"Left Windows"},
+				{KeyCode::RightWin, (const char*)u8"Right Windows"},
+				{KeyCode::Menu, (const char*)u8"Menu"}
+			},
+			// keyBinds
+			{
+				{KeyBinds::KeyControl::Movement_MoveForward, (const char*)u8"Move Forward"},
+				{KeyBinds::KeyControl::Movement_MoveBackward, (const char*)u8"Move Backward"},
+				{KeyBinds::KeyControl::Movement_StrafeLeft, (const char*)u8"Strafe Left"},
+				{KeyBinds::KeyControl::Movement_StrafeRight, (const char*)u8"Strafe Right"},
+				{KeyBinds::KeyControl::Movement_TurnLeft, (const char*)u8"Turn Left"},
+				{KeyBinds::KeyControl::Movement_TurnRight, (const char*)u8"Turn Right"},
+				{KeyBinds::KeyControl::Movement_Dodge, (const char*)u8"Dodge"},
+				{KeyBinds::KeyControl::Movement_Autorun, (const char*)u8"Autorun"},
+				{KeyBinds::KeyControl::Movement_Walk, (const char*)u8"Walk"},
+				{KeyBinds::KeyControl::Movement_Jump, (const char*)u8"Jump"},
+				{KeyBinds::KeyControl::Movement_SwimUp, (const char*)u8"Swim Up"},
+				{KeyBinds::KeyControl::Movement_SwimDown, (const char*)u8"Swim Down"},
+				{KeyBinds::KeyControl::Movement_AboutFace, (const char*)u8"About Face"},
+				{KeyBinds::KeyControl::Skills_SwapWeapons, (const char*)u8"Swap Weapons"},
+				{KeyBinds::KeyControl::Skills_WeaponSkill1, (const char*)u8"Weapon Skill 1"},
+				{KeyBinds::KeyControl::Skills_WeaponSkill2, (const char*)u8"Weapon Skill 2"},
+				{KeyBinds::KeyControl::Skills_WeaponSkill3, (const char*)u8"Weapon Skill 3"},
+				{KeyBinds::KeyControl::Skills_WeaponSkill4, (const char*)u8"Weapon Skill 4"},
+				{KeyBinds::KeyControl::Skills_WeaponSkill5, (const char*)u8"Weapon Skill 5"},
+				{KeyBinds::KeyControl::Skills_HealingSkill, (const char*)u8"Healing Skill"},
+				{KeyBinds::KeyControl::Skills_UtilitySkill1, (const char*)u8"Utility Skill 1"},
+				{KeyBinds::KeyControl::Skills_UtilitySkill2, (const char*)u8"Utility Skill 2"},
+				{KeyBinds::KeyControl::Skills_UtilitySkill3, (const char*)u8"Utility Skill 3"},
+				{KeyBinds::KeyControl::Skills_EliteSkill, (const char*)u8"Elite Skill"},
+				{KeyBinds::KeyControl::Skills_ProfessionSkill1, (const char*)u8"Profession Skill 1"},
+				{KeyBinds::KeyControl::Skills_ProfessionSkill2, (const char*)u8"Profession Skill 2"},
+				{KeyBinds::KeyControl::Skills_ProfessionSkill3, (const char*)u8"Profession Skill 3"},
+				{KeyBinds::KeyControl::Skills_ProfessionSkill4, (const char*)u8"Profession Skill 4"},
+				{KeyBinds::KeyControl::Skills_ProfessionSkill5, (const char*)u8"Profession Skill 5"},
+				{KeyBinds::KeyControl::Skills_ProfessionSkill6, (const char*)u8"Profession Skill 6"},
+				{KeyBinds::KeyControl::Skills_ProfessionSkill7, (const char*)u8"Profession Skill 7"},
+				{KeyBinds::KeyControl::Skills_SpecialAction, (const char*)u8"Special Action"},
+				{KeyBinds::KeyControl::Targeting_AlertTarget, (const char*)u8"Altert Target"},
+				{KeyBinds::KeyControl::Targeting_CallTarget, (const char*)u8"Call Target"},
+				{KeyBinds::KeyControl::Targeting_TakeTarget, (const char*)u8"Take Target"},
+				{KeyBinds::KeyControl::Targeting_SetPersonalTarget, (const char*)u8"Set Personal Target"},
+				{KeyBinds::KeyControl::Targeting_TakePersonalTarget, (const char*)u8"Take Personal Target"},
+				{KeyBinds::KeyControl::Targeting_NearestEnemy, (const char*)u8"Nearest Enemy"},
+				{KeyBinds::KeyControl::Targeting_NextEnemy, (const char*)u8"Next Enemy"},
+				{KeyBinds::KeyControl::Targeting_PreviousEnemy, (const char*)u8"Previous Enemy"},
+				{KeyBinds::KeyControl::Targeting_NearestAlly, (const char*)u8"Nearest Ally"},
+				{KeyBinds::KeyControl::Targeting_NextAlly, (const char*)u8"Next Ally"},
+				{KeyBinds::KeyControl::Targeting_PreviousAlly, (const char*)u8"Previous Ally"},
+				{KeyBinds::KeyControl::Targeting_LockAutotarget, (const char*)u8"Lock Autotarget"},
+				{KeyBinds::KeyControl::Targeting_SnapGroundTarget, (const char*)u8"Snap Ground Target"},
+				{KeyBinds::KeyControl::Targeting_ToggleSnapGroundTarget, (const char*)u8"Toggle Snap Ground Target"},
+				{KeyBinds::KeyControl::Targeting_DisableAutotargeting, (const char*)u8"Disable Autotargeting"},
+				{KeyBinds::KeyControl::Targeting_ToggleAutotargeting, (const char*)u8"Toggle Autotargeting"},
+				{KeyBinds::KeyControl::Targeting_AllyTargetingMode, (const char*)u8"Ally Targeting Mode"},
+				{KeyBinds::KeyControl::Targeting_ToggleAllyTargetingMode, (const char*)u8"Toggle Ally Targeting Mode"},
+				{KeyBinds::KeyControl::UI_BlackLionTradingDialog, (const char*)u8"Black Lion Trading Dialog"},
+				{KeyBinds::KeyControl::UI_ContactsDialog, (const char*)u8"Contacts Dialog"},
+				{KeyBinds::KeyControl::UI_GuildDialog, (const char*)u8"Guild Dialog"},
+				{KeyBinds::KeyControl::UI_HeroDialog, (const char*)u8"Hero Dialog"},
+				{KeyBinds::KeyControl::UI_InventoryDialog, (const char*)u8"Inventory Dialog"},
+				{KeyBinds::KeyControl::UI_PetDialog, (const char*)u8"Pet Dialog"},
+				{KeyBinds::KeyControl::UI_LogOut, (const char*)u8"Log Out"},
+				{KeyBinds::KeyControl::UI_MailDialog, (const char*)u8"Mail Dialog"},
+				{KeyBinds::KeyControl::UI_OptionsDialog, (const char*)u8"Options Dialog"},
+				{KeyBinds::KeyControl::UI_PartyDialog, (const char*)u8"Party Dialog"},
+				{KeyBinds::KeyControl::UI_PvPPanel, (const char*)u8"PvP Panel"},
+				{KeyBinds::KeyControl::UI_PvPBuild, (const char*)u8"PvP Build"},
+				{KeyBinds::KeyControl::UI_Scoreboard, (const char*)u8"Scoreboard"},
+				{KeyBinds::KeyControl::UI_WizardsVaultDialog, (const char*)u8"Wizard's Vault Dialog"},
+				{KeyBinds::KeyControl::UI_InformationDialog, (const char*)u8"Information Dialog"},
+				{KeyBinds::KeyControl::UI_Show_HideChat, (const char*)u8"Hide/Hide Chat"},
+				{KeyBinds::KeyControl::UI_ChatCommand, (const char*)u8"Chat Command"},
+				{KeyBinds::KeyControl::UI_ChatMessage, (const char*)u8"Chat Message"},
+				{KeyBinds::KeyControl::UI_ChatReply, (const char*)u8"Chat Reply"},
+				{KeyBinds::KeyControl::UI_ShowHideUI, (const char*)u8"Show/Hide UI"},
+				{KeyBinds::KeyControl::UI_ShowHideSquadBroadcastChat, (const char*)u8"Show/Hide Squad Broadcast Chat"},
+				{KeyBinds::KeyControl::UI_SquadBroadcastChatCommand, (const char*)u8"Squad Broadcast Chat Command"},
+				{KeyBinds::KeyControl::UI_SquadBroadcastMessage, (const char*)u8"Squad Broadcast Message"},
+				{KeyBinds::KeyControl::Camera_FreeCamera, (const char*)u8"Free Camera"},
+				{KeyBinds::KeyControl::Camera_ZoomIn, (const char*)u8"Zoom In"},
+				{KeyBinds::KeyControl::Camera_ZoomOut, (const char*)u8"Zoom Out"},
+				{KeyBinds::KeyControl::Camera_LookBehind, (const char*)u8"Left Behind"},
+				{KeyBinds::KeyControl::Camera_ToggleActionCamera, (const char*)u8"Toggle Action Camera"},
+				{KeyBinds::KeyControl::Camera_DisableActionCamera, (const char*)u8"Disable Action Camera"},
+				{KeyBinds::KeyControl::Screenshot_Normal, (const char*)u8"Normal"},
+				{KeyBinds::KeyControl::Screenshot_Stereoscopic, (const char*)u8"Stereoscopic"},
+				{KeyBinds::KeyControl::Map_OpenClose, (const char*)u8"Open/Close"},
+				{KeyBinds::KeyControl::Map_Recenter, (const char*)u8"Recenter"},
+				{KeyBinds::KeyControl::Map_FloorDown, (const char*)u8"Floor Down"},
+				{KeyBinds::KeyControl::Map_FloorUp, (const char*)u8"Floor Up"},
+				{KeyBinds::KeyControl::Map_ZoomIn, (const char*)u8"Zoom In"},
+				{KeyBinds::KeyControl::Map_ZoomOut, (const char*)u8"Zoom Out"},
+				{KeyBinds::KeyControl::Mounts_MountDismount, (const char*)u8"Mount/Dismount"},
+				{KeyBinds::KeyControl::Mounts_MountAbility1, (const char*)u8"Mount Ability 1"},
+				{KeyBinds::KeyControl::Mounts_MountAbility2, (const char*)u8"Mount Ability 2"},
+				{KeyBinds::KeyControl::Mounts_Raptor, (const char*)u8"Raptor Mount/Dismount"},
+				{KeyBinds::KeyControl::Mounts_Springer, (const char*)u8"Springer Mount/Dismount"},
+				{KeyBinds::KeyControl::Mounts_Skimmer, (const char*)u8"Skimmer Mount/Dismount"},
+				{KeyBinds::KeyControl::Mounts_Jackal, (const char*)u8"Jackal Mount/Dismount"},
+				{KeyBinds::KeyControl::Mounts_Griffon, (const char*)u8"Griffon Mount/Dismount"},
+				{KeyBinds::KeyControl::Mounts_RollerBeetle, (const char*)u8"Roller Beetle Mount/Dismount"},
+				{KeyBinds::KeyControl::Mounts_Warclaw, (const char*)u8"Warclaw Mount/Dismount"},
+				{KeyBinds::KeyControl::Mounts_Skyscale, (const char*)u8"Skyscale Mount/Dismount"},
+				{KeyBinds::KeyControl::Mounts_Turtle, (const char*)u8"Siege Turtle Mount/Dismount"},
+				{KeyBinds::KeyControl::Spectators_NearestFixedCamera, (const char*)u8"Nearest Fixed Camera"},
+				{KeyBinds::KeyControl::Spectators_NearestPlayer, (const char*)u8"Nearest Player"},
+				{KeyBinds::KeyControl::Spectators_RedPlayer1, (const char*)u8"Red Player 1"},
+				{KeyBinds::KeyControl::Spectators_RedPlayer2, (const char*)u8"Red Player 2"},
+				{KeyBinds::KeyControl::Spectators_RedPlayer3, (const char*)u8"Red Player 3"},
+				{KeyBinds::KeyControl::Spectators_RedPlayer4, (const char*)u8"Red Player 4"},
+				{KeyBinds::KeyControl::Spectators_RedPlayer5, (const char*)u8"Red Player 5"},
+				{KeyBinds::KeyControl::Spectators_BluePlayer1, (const char*)u8"Blue Player 1"},
+				{KeyBinds::KeyControl::Spectators_BluePlayer2, (const char*)u8"Blue Player 2"},
+				{KeyBinds::KeyControl::Spectators_BluePlayer3, (const char*)u8"Blue Player 3"},
+				{KeyBinds::KeyControl::Spectators_BluePlayer4, (const char*)u8"Blue Player 4"},
+				{KeyBinds::KeyControl::Spectators_BluePlayer5, (const char*)u8"Blue Player 5"},
+				{KeyBinds::KeyControl::Spectators_FreeCamera, (const char*)u8"Free Camera"},
+				{KeyBinds::KeyControl::Spectators_FreeCameraBoost, (const char*)u8"Free Camera Boost"},
+				{KeyBinds::KeyControl::Spectators_FreeCameraForward, (const char*)u8"Free Camera Forward"},
+				{KeyBinds::KeyControl::Spectators_FreeCameraBackward, (const char*)u8"Free Camera Backward"},
+				{KeyBinds::KeyControl::Spectators_FreeCameraLeft, (const char*)u8"Free Camera Left"},
+				{KeyBinds::KeyControl::Spectators_FreeCameraRight, (const char*)u8"Free Camera Right"},
+				{KeyBinds::KeyControl::Spectators_FreeCameraUp, (const char*)u8"Free Camera Up"},
+				{KeyBinds::KeyControl::Spectators_FreeCameraDown, (const char*)u8"Free Camera Down"},
+				{KeyBinds::KeyControl::Squad_Location_Arrow, (const char*)u8"Arrow"},
+				{KeyBinds::KeyControl::Squad_Location_Circle, (const char*)u8"Circle"},
+				{KeyBinds::KeyControl::Squad_Location_Heart, (const char*)u8"Heart"},
+				{KeyBinds::KeyControl::Squad_Location_Square, (const char*)u8"Square"},
+				{KeyBinds::KeyControl::Squad_Location_Star, (const char*)u8"Star"},
+				{KeyBinds::KeyControl::Squad_Location_Spiral, (const char*)u8"Spiral"},
+				{KeyBinds::KeyControl::Squad_Location_Triangle, (const char*)u8"Triangle"},
+				{KeyBinds::KeyControl::Squad_Location_X, (const char*)u8"X"},
+				{KeyBinds::KeyControl::Squad_ClearAllLocationMarkers, (const char*)u8"Clear All Location Markers"},
+				{KeyBinds::KeyControl::Squad_Object_Arrow, (const char*)u8"Object Arrow"},
+				{KeyBinds::KeyControl::Squad_Object_Circle, (const char*)u8"Object Circle"},
+				{KeyBinds::KeyControl::Squad_Object_Heart, (const char*)u8"Object Heart"},
+				{KeyBinds::KeyControl::Squad_Object_Square, (const char*)u8"Object Square"},
+				{KeyBinds::KeyControl::Squad_Object_Star, (const char*)u8"Object Star"},
+				{KeyBinds::KeyControl::Squad_Object_Spiral, (const char*)u8"Object Spiral"},
+				{KeyBinds::KeyControl::Squad_Object_Triangle, (const char*)u8"Object Triangle"},
+				{KeyBinds::KeyControl::Squad_Object_X, (const char*)u8"Object X"},
+				{KeyBinds::KeyControl::Squad_ClearAllObjectMarkers, (const char*)u8"Clear All Object Markers"},
+				{KeyBinds::KeyControl::MasterySkills_ActivateMasterySkill, (const char*)u8"Activate Mastery Skill"},
+				{KeyBinds::KeyControl::MasterySkills_StartFishing, (const char*)u8"Start Fishing"},
+				{KeyBinds::KeyControl::MasterySkills_SummonSkiff, (const char*)u8"Summon Skiff"},
+				{KeyBinds::KeyControl::MasterySkills_SetJadeBotWaypoint, (const char*)u8"Set Jade Bot Waypoint"},
+				{KeyBinds::KeyControl::MasterySkills_ScanForRift, (const char*)u8"Scan for Rift"},
+				{KeyBinds::KeyControl::MasterySkills_SkyscaleLeap, (const char*)u8"Skyscale Leap"},
+				{KeyBinds::KeyControl::MasterySkills_ConjuredDoorway, (const char*)u8"Conjured Doorway"},
+				{KeyBinds::KeyControl::Miscellaneous_AoELoot, (const char*)u8"AoE Loot"},
+				{KeyBinds::KeyControl::Miscellaneous_Interact, (const char*)u8"Interact"},
+				{KeyBinds::KeyControl::Miscellaneous_ShowEnemyNames, (const char*)u8"Show Enemy Names"},
+				{KeyBinds::KeyControl::Miscellaneous_ShowAllyNames, (const char*)u8"Show Ally Names"},
+				{KeyBinds::KeyControl::Miscellaneous_StowDrawWeapon, (const char*)u8"Stow/Draw Weapon"},
+				{KeyBinds::KeyControl::Miscellaneous_ToggleLanguage, (const char*)u8"Toggle Language"},
+				{KeyBinds::KeyControl::Miscellaneous_RangerPetCombatToggle, (const char*)u8"Ranger Pet Combat Toggle"},
+				{KeyBinds::KeyControl::Miscellaneous_ToggleFullScreen, (const char*)u8"Toggle Full Screen"},
+				{KeyBinds::KeyControl::Miscellaneous_EquipUnequipNovelty, (const char*)u8"Equip/Unequip Novelty"},
+				{KeyBinds::KeyControl::Miscellaneous_ActivateChair, (const char*)u8"Activate Chair"},
+				{KeyBinds::KeyControl::Miscellaneous_ActivateMusicalInstrument, (const char*)u8"Activate Musical Instrument"},
+				{KeyBinds::KeyControl::Miscellaneous_ActivateHeldItem, (const char*)u8"Activate Held Item"},
+				{KeyBinds::KeyControl::Miscellaneous_ActivateToy, (const char*)u8"Activate Toy"},
+				{KeyBinds::KeyControl::Miscellaneous_ActivateTonic, (const char*)u8"Activate Tonic"},
+				{KeyBinds::KeyControl::Miscellaneous_DecorateModeToggle, (const char*)u8"Decorate Mode Toggle"},
+				{KeyBinds::KeyControl::Templates_BuildTemplate1, (const char*)u8"Build Template 1"},
+				{KeyBinds::KeyControl::Templates_BuildTemplate2, (const char*)u8"Build Template 2"},
+				{KeyBinds::KeyControl::Templates_BuildTemplate3, (const char*)u8"Build Template 3"},
+				{KeyBinds::KeyControl::Templates_BuildTemplate4, (const char*)u8"Build Template 4"},
+				{KeyBinds::KeyControl::Templates_BuildTemplate5, (const char*)u8"Build Template 5"},
+				{KeyBinds::KeyControl::Templates_BuildTemplate6, (const char*)u8"Build Template 6"},
+				{KeyBinds::KeyControl::Templates_BuildTemplate7, (const char*)u8"Build Template 7"},
+				{KeyBinds::KeyControl::Templates_BuildTemplate8, (const char*)u8"Build Template 8"},
+				{KeyBinds::KeyControl::Templates_BuildTemplate9, (const char*)u8"Build Template 9"},
+				{KeyBinds::KeyControl::Templates_EquipmentTemplate1, (const char*)u8"Equipment Template 1"},
+				{KeyBinds::KeyControl::Templates_EquipmentTemplate2, (const char*)u8"Equipment Template 2"},
+				{KeyBinds::KeyControl::Templates_EquipmentTemplate3, (const char*)u8"Equipment Template 3"},
+				{KeyBinds::KeyControl::Templates_EquipmentTemplate4, (const char*)u8"Equipment Template 4"},
+				{KeyBinds::KeyControl::Templates_EquipmentTemplate5, (const char*)u8"Equipment Template 5"},
+				{KeyBinds::KeyControl::Templates_EquipmentTemplate6, (const char*)u8"Equipment Template 6"},
+				{KeyBinds::KeyControl::Templates_EquipmentTemplate7, (const char*)u8"Equipment Template 7"},
+				{KeyBinds::KeyControl::Templates_EquipmentTemplate8, (const char*)u8"Equipment Template 8"},
+				{KeyBinds::KeyControl::Templates_EquipmentTemplate9, (const char*)u8"Equipment Template 9"},
+			}
+		}
 	}
 };
 
@@ -1198,6 +1481,10 @@ ANONYMOUS_ASSERT(TRANSLATIONS.at(Language::Spanish).Modifier.size() == KeyBinds:
 ANONYMOUS_ASSERT(TRANSLATIONS.at(Language::Spanish).Keys.size() == KeyBinds::KEY_CODES_SIZE_TRANSLATION)
 ANONYMOUS_ASSERT(TRANSLATIONS.at(Language::Spanish).KeyControls.size() == KeyBinds::KEY_CONTROL_SIZE)
 
+ANONYMOUS_ASSERT(TRANSLATIONS.at(Language::Chinese).Modifier.size() == KeyBinds::MODIFIER_SIZE)
+ANONYMOUS_ASSERT(TRANSLATIONS.at(Language::Chinese).Keys.size() == KeyBinds::KEY_CODES_SIZE_TRANSLATION)
+ANONYMOUS_ASSERT(TRANSLATIONS.at(Language::Chinese).KeyControls.size() == KeyBinds::KEY_CONTROL_SIZE)
+
 void AddModifier(std::stringstream& pStr, KeyBinds::Modifier pMod, Language pLang)
 {
 	const auto& translation = TRANSLATIONS.at(pLang);
@@ -1218,10 +1505,12 @@ void AddModifier(std::stringstream& pStr, KeyBinds::Modifier pMod, Language pLan
 
 std::string to_string(KeyBinds::KeyControl pKeyControl, Language pLang)
 {
+	/*
 	if (pLang == Language::Chinese)
 	{
 		return "";
 	}
+	*/
 
 	const auto& keyMap = TRANSLATIONS.at(pLang).KeyControls;
 	const auto& trans = keyMap.find(pKeyControl);
@@ -1235,11 +1524,13 @@ std::string to_string(KeyBinds::KeyControl pKeyControl, Language pLang)
 
 std::string to_string(KeyBinds::Key pKeyBind, Language pLang, HKL pKeyboardLayout, bool pNotSetText)
 {
+	/*
 	// no chinese translation provided
 	if (pLang == Language::Chinese)
 	{
 		return "";
 	}
+	*/
 
 	const auto& translation = TRANSLATIONS.at(pLang);
 
@@ -1272,10 +1563,12 @@ std::string to_string(KeyBinds::Key pKeyBind, Language pLang, HKL pKeyboardLayou
 
 std::string to_string(KeyBinds::KeyCode pKeyCode, Language pLang, HKL pKeyboardLayout)
 {
+	/*
 	if (pLang == Language::Chinese)
 	{
 		return "";
 	}
+	*/
 
 	using KeyBinds::KeyCode;
 	if (pKeyCode >= KeyCode::A && pKeyCode <= KeyCode::Z || pKeyCode >= KeyCode::_0 && pKeyCode <= KeyCode::_9)
@@ -1317,10 +1610,12 @@ std::string to_string(KeyBinds::KeyCode pKeyCode, Language pLang, HKL pKeyboardL
 
 std::string to_string(KeyBinds::MouseCode pMouseCode, Language pLang)
 {
+	/*
 	if (pLang == Language::Chinese)
 	{
 		return "";
 	}
+	*/
 
 	using KeyBinds::MouseCode;
 	int32_t key = static_cast<int32_t>(pMouseCode);
