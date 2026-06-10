@@ -75,7 +75,8 @@ enum class Language : int32_t
 	French = 2,
 	German = 3,
 	Spanish = 4,
-	Chinese = 5
+	Chinese = 5,
+	TChinese = 6
 };
 
 struct SquadMessageInfo
