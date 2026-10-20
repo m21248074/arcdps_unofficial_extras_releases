@@ -214,8 +214,17 @@ namespace KeyBinds
 		Templates_EquipmentTemplate7 = 188,
 		Templates_EquipmentTemplate8 = 189,
 		Templates_EquipmentTemplate9 = 190,
+		Templates_FashionTemplate1 = 212,
+		Templates_FashionTemplate2 = 213,
+		Templates_FashionTemplate3 = 214,
+		Templates_FashionTemplate4 = 215,
+		Templates_FashionTemplate5 = 216,
+		Templates_FashionTemplate6 = 217,
+		Templates_FashionTemplate7 = 218,
+		Templates_FashionTemplate8 = 219,
+		Templates_FashionTemplate9 = 220,
 	};
-	constexpr int32_t KEY_CONTROL_SIZE = 177;
+	constexpr int32_t KEY_CONTROL_SIZE = 186;
 
 	// Some of them are not usable (like F13-F35 or PRINT)
 	// These are custom scan codes.
@@ -415,6 +424,12 @@ namespace KeyBinds
 		int32_t Code = 0; /** depends on `deviceType`. MouseCode or KeyCode depending on `DeviceType` */
 		Modifier Modifier = 0; /** modifier flags (Bit 1 = Shift, Bit 2 = Ctrl, Bit 3 = Alt) */
 
+#ifdef __cplusplus
+		Key() = default;
+		explicit Key(MouseCode code, KeyBinds::Modifier modifier = 0) : DeviceType(DeviceType::Mouse), Code(static_cast<int32_t>(code)), Modifier(modifier) {}
+		explicit Key(KeyCode code, KeyBinds::Modifier modifier = 0) : DeviceType(DeviceType::Keyboard), Code(static_cast<int32_t>(code)), Modifier(modifier) {}
+#endif
+
 		bool operator==(const Key& other) const {
 			return other.DeviceType == DeviceType && other.Code == Code && other.Modifier == Modifier;
 		}
@@ -451,11 +466,16 @@ namespace KeyBinds
 	}
 }
 
+// Disable `warning C4190: 'get_key' has C-linkage specified, but returns 'KeyBinds::Key' which is incompatible with C`
+// The Key struct is compatible with C, even with the constructors, so this warning is not needed.
+#pragma warning(push)
+#pragma warning(disable: 4190)
 // pKeyIndex is either 0 or 1, notating the primary and secondary key for the keybind respectively
 // These functions will return an empty/default Key, if the key is not set OR if the functionality is disabled cause of missing patterns.
 // You can detect if it is disabled by checking if the `KeyBindChangedCallback` got called on startup.
 extern "C" UNOFFICIAL_EXTRAS_API KeyBinds::Key get_key(KeyBinds::KeyControl pControl, uint32_t pKeyIndex = 0);
 extern "C" UNOFFICIAL_EXTRAS_API KeyBinds::KeyBind get_key_bind(KeyBinds::KeyControl pControl);
+#pragma warning(pop)
 
 /**
  * Magic_enum includes and definitions.
