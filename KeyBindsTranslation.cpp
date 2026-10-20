@@ -1771,6 +1771,15 @@ static const std::unordered_map<Language, Translation> TRANSLATIONS = {
 				{KeyBinds::KeyControl::Templates_EquipmentTemplate7, (const char*)u8"Equipment Template 7"},
 				{KeyBinds::KeyControl::Templates_EquipmentTemplate8, (const char*)u8"Equipment Template 8"},
 				{KeyBinds::KeyControl::Templates_EquipmentTemplate9, (const char*)u8"Equipment Template 9"},
+				{KeyBinds::KeyControl::Templates_FashionTemplate1, (const char*)u8"Fashion Template 1"},
+				{KeyBinds::KeyControl::Templates_FashionTemplate2, (const char*)u8"Fashion Template 2"},
+				{KeyBinds::KeyControl::Templates_FashionTemplate3, (const char*)u8"Fashion Template 3"},
+				{KeyBinds::KeyControl::Templates_FashionTemplate4, (const char*)u8"Fashion Template 4"},
+				{KeyBinds::KeyControl::Templates_FashionTemplate5, (const char*)u8"Fashion Template 5"},
+				{KeyBinds::KeyControl::Templates_FashionTemplate6, (const char*)u8"Fashion Template 6"},
+				{KeyBinds::KeyControl::Templates_FashionTemplate7, (const char*)u8"Fashion Template 7"},
+				{KeyBinds::KeyControl::Templates_FashionTemplate8, (const char*)u8"Fashion Template 8"},
+				{KeyBinds::KeyControl::Templates_FashionTemplate9, (const char*)u8"Fashion Template 9"},
 			}
 		}
 	}
